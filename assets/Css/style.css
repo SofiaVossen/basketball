@@ -1,0 +1,110 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    background-color: #2c2c2c;
+    color:white;
+    font-family:Orbitron;
+}
+/* Buttons */
+/* ======================================================== */
+#btnReset{
+    color:black;
+    font-family: Lato;
+    background-color: white;
+    border-radius: 10px;
+    width:122px;
+    height: 39px;
+    border:none;
+}
+.btns{
+    font-family: Lato;
+    width:105px;
+    height:105px;
+    border-radius:10px;
+    font-size:37px;
+    margin:30px 5px;
+    border:none;
+    cursor:pointer;
+}
+#btnsHome button{
+    background-color: #97F5BB;
+}
+#btnsAway button{
+    background-color: #525DF4;
+}
+.btns:hover {
+    box-shadow:5px 10px 8px;
+    color:black;
+    transition-duration: 0.2s;
+}
+#btnReset:hover{
+    box-shadow:5px 10px 8px;
+    color:black;
+    cursor:pointer;
+    transition-duration: 0.2s;
+}
+/* Flex Container */
+/* ======================================================== */
+.flex-container1{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+    align-items:baseline;
+}
+.flex-container3{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top:30px;
+}
+/* fieldsets*/
+/* ======================================================== */
+#fieldsetAway{
+    height:489px;
+    width:489px;
+    border-radius: 30px;
+    border:5px solid #525DF4;
+    margin-top:50px;
+}
+#fieldsetHome{
+    height:489px;
+    width:489px;
+    border-radius: 30px;
+    border:5px solid #97F5BB;
+    margin-top:50px;
+}
+#groupHome{
+    font-size:37px;
+}
+#groupAway{
+    font-size:37px;
+}
+/* numbers  */
+/* ======================================================== */
+#nmbHome{
+    border-radius: 30px;
+    background-color: black;
+    width:415px;
+    height:415px;
+    display:flex;
+    justify-content:center;
+    margin:5px 30px;
+    padding-top:22%;
+    font-size: 150px;
+    color:#FDF860;
+}
+#nmbAway{
+    border-radius: 30px;
+    background-color: black;
+    width:415px;
+    height:415px;
+    display:flex;
+    justify-content:center;
+    margin:5px 30px;
+    padding-top:22%;
+    font-size: 150px;
+    color:#FDF860;
+}
+

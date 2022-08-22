@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Score</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body onload="nameTeamHome();nameTeamAway()">
+    <main class="flex-container1">
+        <section id="sHome">
+            <!-- Counter HOME -->
+            <article >
+                <fieldset id="fieldsetHome">
+                    <h1 id="nmbHome">0</h1>
+                    <legend id="groupHome">Home</legend>
+                </fieldset>
+            </article>
+            <!-- Buttons HOME -->
+            <article id="btnsHome">
+                <button id=btnHome1 class=btns onclick="plusOneHome()">+1</button>
+                <button id=btnHome2 class=btns onclick="plusTwoHome()">+2</button>
+                <button id=btnHome3 class=btns onclick="plusThreeHome()">+3</button>
+            </article>
+        </section>
+        <!-- ===SECTION AWAY=== -->
+            <!-- Counter AWAY -->
+        <section id="sAway">
+            <article>
+                <fieldset id="fieldsetAway">
+                    <h1 id="nmbAway">0</h1>
+                    <legend id="groupAway">Away</legend>
+                </fieldset>
+            </article>
+            <!-- Buttons AWAY -->
+            <article id="btnsAway">
+                <button id=btnAway1 class=btns onclick="plusOneAway()">+1</button>
+                <button id=btnAway2 class=btns onclick="plusTwoAway()">+2</button>
+                <button id=btnAway3 class=btns onclick="plusThreeAway()">+3</button>
+            </article>
+        </section>
+    </main>
+    <!-- ===SECTION HOME=== -->
+    <!-- ===SECTION BUTTON RESET=== -->
+    <footer class="flex-container3">
+        <button id="btnReset" onclick="reset()">Reset</button>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
